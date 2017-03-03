@@ -1,0 +1,4 @@
+name: tabula_rasa
+dependencies:
+- pip
+- python=3
