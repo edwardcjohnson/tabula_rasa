@@ -9,7 +9,7 @@ This is an adaptation of [tdhopper.com's environment workflow](http://tdhopper.c
 2. Create an environment.yml file in the directory. 
    * The environment name should be the same as the folder name.
    * At minimum, it will specify the version of Python I want to use; it will often include anaconda as a dependency.
-3. Create the conda environment with `conda env create`.
+3. Create the conda environment with `conda env create -f environment.yml`.
 4. Activate the conda environment with `source activate ENV_NAME`.
 5. Create a .env file containing the line `source activate ENV_NAME`.
    * autoenv should be installed, so that this file will be run every time I navigate to the project folder in the Terminal.
