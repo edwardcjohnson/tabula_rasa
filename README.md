@@ -3,7 +3,7 @@ A blank slate or template to initialize data science projects.
 
 
 #### Python Environment Creation
-This is an adaptation of [tdhopper.com's environment workflow](http://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/)
+This is based off of [tdhopper.com's environment workflow](http://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/) and [conda.io's managing environments](https://conda.io/docs/using/envs.html) 
 
 1. Create a project folder in the ~/work/repos/ directory on my computer.
 2. Create an environment.yml file in the directory. 
