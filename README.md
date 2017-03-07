@@ -10,6 +10,7 @@ This is based off of [tdhopper.com's environment workflow](http://tdhopper.com/b
    * The environment name should be the same as the folder name.
    * At minimum, it will specify the version of Python I want to use; it will often include anaconda as a dependency.
    * If you want to save your current environment instead of creating a new one, enter `conda env export > environment.yml`
+   * If you want to create an environment without using environment.yml, enter `conda create --name project_name python=3.6`
 3. Create the conda environment with `conda env create -f environment.yml`.
 4. Activate the conda environment with `source activate ENV_NAME`.
 5. Create a .env file containing the line `source activate ENV_NAME`.
