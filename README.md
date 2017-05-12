@@ -5,13 +5,18 @@ A blank slate or template to initialize data science projects.
 
 1. Clone tabula_rasa `git clone https://github.com/edwardcjohnson/tabula_rasa.git`
 2. Rename tabula_rasa to reflect the project name you want e.g. `mv tabula_rasa/ cool_ds_project/`
+3. Customize the default environment.yml for your project
+  * At a minimum you should change the name to reflect your project's name e.g. `name: cool_ds_project`
+  * More details on creating your environment are in the section below
+4. Create the conda environment with `conda env create -f environment.yml`.
+5. If you'd like to create a github repo for this project refer to the section below. 
 
 #### Python Environment Creation
 This is based off of [tdhopper.com's environment workflow](http://tdhopper.com/blog/2015/Nov/24/my-python-environment-workflow-with-conda/) and [conda.io's managing environments](https://conda.io/docs/using/envs.html) 
 
 1. Create an environment.yml file in the directory. 
    * The environment name should be the same as the folder name.
-   * At minimum, it will specify the version of Python I want to use; it will often include anaconda as a dependency.
+   * At a minimum, it will specify the version of Python I want to use; it will often include anaconda as a dependency.
    * If you want to save your current environment instead of creating a new one, enter `conda env export > environment.yml`
    * If you want to create an environment without using environment.yml, enter `conda create --name project_name python=3.6`
 2. Create the conda environment with `conda env create -f environment.yml`.
