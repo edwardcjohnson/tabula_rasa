@@ -6,8 +6,8 @@ A blank slate or template to initialize data science projects.
 1. Clone tabula_rasa `git clone https://github.com/edwardcjohnson/tabula_rasa.git`
 2. Rename tabula_rasa to reflect the project name you want e.g. `mv tabula_rasa/ cool_ds_project/`
 3. Customize the default environment.yml for your project
-  * At a minimum you should change the name to reflect your project's name e.g. `name: cool_ds_project`
-  * More details on creating your environment are in the section below
+   * At a minimum you should change the name to reflect your project's name e.g. `name: cool_ds_project`
+   * More details on creating your environment are in the section below
 4. Create the conda environment with `conda env create -f environment.yml`.
 5. If you'd like to create a github repo for this project refer to the section below. 
 
