@@ -1,6 +1,6 @@
 name: tabula_rasa
 dependencies:
-- python=3.6
+- python=3.7
 - anaconda
 - pip
 - numpy
